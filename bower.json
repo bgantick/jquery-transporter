@@ -1,0 +1,30 @@
+{
+  "name": "jquery-transporter",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bgantick/jquery-transporter"
+  },
+  "authors": [
+    "Brian Gantick <bgantick@gmail.com> (http://www.briangantick.com)"
+  ],
+  "description": "Need to move an element in the DOM somewhere else at a certain viewport size because reasons? This simple transporter does just that.",
+  "main": "src/min/transporter-min.js",
+  "keywords": [
+    "move",
+    "jquery",
+    "dom",
+    "manipulation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.10.2"
+  }
+}
