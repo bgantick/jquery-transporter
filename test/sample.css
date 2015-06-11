@@ -1,0 +1,39 @@
+body {
+  background: #EEE;
+}
+
+code {
+  background: #FFF;
+  border-radius: 0.25em;
+  padding: 0.25em;
+}
+
+p.change {
+  background: #676767;
+  padding: 1em;
+}
+
+p.change span {
+  display: none;
+  color: #FFF;
+  margin-top: 1em;
+}
+
+.move-me {
+  padding: 1em;
+  color: #FFF;
+}
+
+.thing-one .move-me {
+  background: green;
+}
+
+.thing-two .move-me {
+  background: red;
+}
+
+@media (max-width: 860px) {
+  p.change span {
+    display: block;
+  }
+}
