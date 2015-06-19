@@ -114,6 +114,8 @@
 
     }
 
+    return this;
+
   };
 
   // Global window.resize handler, throttled to 250ms
