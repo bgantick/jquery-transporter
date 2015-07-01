@@ -99,15 +99,15 @@
 
         var $node = $(this);
         var nodeID = $node.data('move-name');
-        var $mobile = $('.mobile-dump-container.' + nodeID);
-        var $desktop = $('.desktop-dump-container.' + nodeID);
+        var $small = $('.small-container.' + nodeID);
+        var $large = $('.large-container.' + nodeID);
 
         if ( $(window).width() > $node.data('break') ) {
-          $node.appendTo($desktop);
+          $node.appendTo($large);
         }
 
         if ( $(window).width() < $node.data('break') ) {
-          $node.appendTo($mobile);
+          $node.appendTo($small);
         }
 
       });
